@@ -23,7 +23,6 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
             android:text="Lets Start The Game!" />
-
         <TextView
             android:id="@+id/player1"
             android:layout_width="150dp"
@@ -49,6 +48,18 @@
             android:text="player_2"
             android:textAlignment="center"
             android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="->"
+            android:id="@+id/arrow"
+            android:layout_below="@+id/startTitle"
+            android:layout_marginTop="95dp"
+            android:layout_toRightOf="@+id/player1"
+            android:layout_marginLeft="17dp"
+            android:textSize="25sp"
+            />
 
         <Button
             android:layout_width="180dp"
